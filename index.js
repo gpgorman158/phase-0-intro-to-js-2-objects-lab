@@ -26,5 +26,11 @@ const employee = {
   
   const employee2 = updateEmployeeWithKeyAndValue(employee, "name", "G2" );
   const employee3 = destructivelyUpdateEmployeeWithKeyAndValue(employee, "name" , "G3");
-  const employee4 = deleteFromEmployeeByKey(employee, "streetAddress");
-  const employee5 = destructivelyDeleteFromEmployeeByKey(employee, "streetAddress");
+  //const employee4 = deleteFromEmployeeByKey(employee, "streetAddress");
+  //const employee5 = destructivelyDeleteFromEmployeeByKey(employee, "streetAddress");
+
+  console.log(employee);
+  console.log(employee2);
+  console.log(employee3);
+  //console.log(employee4);
+  //console.log(employee5);
